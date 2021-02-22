@@ -96,13 +96,14 @@ bind_word_map_to_csv(
 
 
 # Default words that should be added to Talon's vocabulary.
-_simple_vocab_default = ["nmap", "admin", "Cisco", "Citrix", "VPN", "DNS", "Minecraft", 'VSCode', 'vim', 'git']
+_simple_vocab_default = ["nmap", "admin", "Cisco", "Citrix", "VPN", "DNS", "Minecraft", 'vim', 'git']
 
 # Defaults for different pronounciations of words that need to be added to
 # Talon's vocabulary.
 _default_vocabulary = {
     "N map": "nmap",
     "under documented": "under-documented",
+    "viscode": "VSCode",
 }
 _default_vocabulary.update({word: word for word in _simple_vocab_default})
 
