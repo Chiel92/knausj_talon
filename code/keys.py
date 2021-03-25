@@ -223,9 +223,10 @@ simple_keys = [
     "backspace",
 ]
 
-alternate_keys = { }
+alternate_keys = {
     "page up": "pageup",
     "page down": "pagedown",
+}
 # mac apparently doesn't have the menu key.
 if app.platform in ("windows", "linux"):
     alternate_keys["menu key"] = "menu"
